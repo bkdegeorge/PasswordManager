@@ -11,7 +11,7 @@ from tkinter import simpledialog
 # Make simpledialog available globally
 tk.simpledialog = simpledialog
 
-from src.gui import main
+from src.gui_modern import main
 
 if __name__ == '__main__':
     main()
